@@ -4,10 +4,7 @@ from fastmcp import FastMCP
 
 # 1. Instantiate FastMCP
 # The name and description are used to identify the MCP server.
-mcp = FastMCP(
-    name="SemanticSearchClient",
-    description="An MCP server that provides a tool to query an external semantic search API."
-)
+mcp = FastMCP("SemanticSearchClient")
 
 # 2. Configure the search service URL
 # The tool will call this external HTTP endpoint for the search.
